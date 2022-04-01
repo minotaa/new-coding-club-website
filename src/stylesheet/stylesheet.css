@@ -13,14 +13,28 @@
 .subtitle {
     font-weight: 700;
     font-size: 1.5em;
-    color: #4a4a4a;
+    color: #272727;
+}
+
+.container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    max-width: none !important;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+    max-width: fit-content;
+    margin-top: 4em;
+    margin-left: 4.25em;
 }
 
 .title:not(.is-spaced) + .subtitle {
-    margin-top: -1.25rem; }
+    margin-top: -1rem; }
 
 .subtitle:not(.is-spaced) + .title {
-    margin-top: -1.25rem; }
+    margin-top: -1rem; }
 
 .navbar {
     padding: 24px;

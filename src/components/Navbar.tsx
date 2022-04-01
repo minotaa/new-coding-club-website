@@ -9,9 +9,11 @@ export default function Navbar(props) {
         <nav className="navbar">
             <div className="navbar-start">
                 <div className="navbar-element">
-                    <button title="Get a link to the discord" className="button">
-                        <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>&nbsp;Coding Club 2021-2022
-                    </button>  
+                    <Link href="/">
+                        <button title="Get a link to the discord" className="button">
+                            <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>&nbsp;Coding Club 2021-2022
+                        </button>  
+                    </Link>
                 </div>
                 <div className="navbar-element">
                     <Link href="https://discord.gg/XjdBfW8sEy">
